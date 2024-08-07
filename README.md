@@ -40,15 +40,15 @@ I decided to place this here in the readme since it's much easier on the eyes.
 The conventions for VKWin are as follows:
 
 ### Within code
-**Functions**: FunctionName() - The functions are named in PascalCase.
-**MACROS**: MACRO - The macros are named in the ALL_CAPS version of snake_case.
-**variables**: var_name - The variables are all named in snake_case.
-***note**: Hungarian notation will be used for variables in snake_case. eg: \*p_ptr_name would be a pointer*
-**structs**: structName - All structs/enums will be named in camelCase.
+- **Functions**: FunctionName() - The functions are named in PascalCase.
+- **MACROS**: MACRO - The macros are named in the ALL_CAPS version of snake_case.
+- **variables**: var_name - The variables are all named in snake_case.
+- ***note**: Hungarian notation will be used for variables in snake_case. eg: \*p_ptr_name would be a pointer*
+- **structs**: structName - All structs/enums will be named in camelCase.
 
 ### Outside code
-**Folders**: FolderName - Similar to functions, folders too will be named in PascalCase
-**files**: file_name - Again, similar to variables, files(mostly source_files/header_files) will be named in snake_case
+- **Folders**: FolderName - Similar to functions, folders too will be named in PascalCase
+- **files**: file_name - Again, similar to variables, files(mostly source_files/header_files) will be named in snake_case
 
 ## Log utilities
 The log utilities in the engine use macros to access logging.
