@@ -43,7 +43,9 @@ The conventions for VKWin are as follows:
 - **Functions**: FunctionName() - The functions are named in PascalCase.
 - **MACROS**: MACRO - The macros are named in the ALL_CAPS version of snake_case.
 - **variables**: var_name - The variables are all named in snake_case.
+
 ***note**: Hungarian notation will be used for variables in snake_case. eg: \*p_ptr_name would be a pointer*
+
 - **structs**: structName - All structs/enums will be named in camelCase.
 
 ### Outside code
